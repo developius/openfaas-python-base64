@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  python-base64:
+    lang: python
+    handler: ./python-base64
+    image: developius/openfaas-python-base64
